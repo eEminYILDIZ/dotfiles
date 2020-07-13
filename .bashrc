@@ -109,5 +109,27 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Remap Capslock as ESC for VIM
+# Remap Capslock as ESC
 setxkbmap -option caps:escape
+
+# Add Golang to Path
+export PATH=$PATH:/usr/local/go/bin
+
+#########################################
+##Change Bash Display Command for Git####
+#########################################
+### Add Git Status to bash prompt
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+export PS1="\[\033[31m\]\u@\h:\[\033[32m\]\w:\[\033[33m\]\$(parse_git_branch)\[\033[00m\]\n$ "
+
+#### Change terminal title
+PROMPT_COMMAND='echo -ne "\033]0;${PWD}\007"'
+
+
+##############################################
+# Development Workspace
+alias dev='cd /srv/Devspace/'
+alias cdev='cd /srv/Devspace/Crosstech/'
+
