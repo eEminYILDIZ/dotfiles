@@ -1,0 +1,29 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "ayu",
+    "editor.minimap.enabled": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 11,
+    "vim.commandLineModeKeyBindings": [
+      {
+          "key": "capslock", 
+          "command": "extension.vim_escape",
+          "when": "editorTextFocus && vim.active && !inDebugRepl" 
+        } 
+    ],
+    "keyboard.dispatch": "keyCode",
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.visualModeKeyBindings": [
+    
+    ], 
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-c>": false
+      }
+
+}
