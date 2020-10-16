@@ -23,7 +23,20 @@
         "<C-a>": false,
         "<C-f>": false,
         "<C-v>": false,
-        "<C-c>": false
+        "<C-c>": false,
+        "<C-x>": false
+      },
+      "files.associations": {
+        "*.cshtml": "cshtml"
+      },
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       }
 
 }
