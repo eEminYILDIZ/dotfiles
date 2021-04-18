@@ -3,40 +3,63 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "ayu",
-    "editor.minimap.enabled": true,
-    "workbench.colorTheme": "Solarized Dark",
-    "editor.fontSize": 11,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
     "vim.commandLineModeKeyBindings": [
       {
-          "key": "capslock", 
-          "command": "extension.vim_escape",
-          "when": "editorTextFocus && vim.active && !inDebugRepl" 
+        "when": "editorTextFocus && vim.active && !inDebugRepl" ,
+        "command": "extension.vim_escape",
+        "key": "capslock", 
+          
+          
         } 
     ],
     "keyboard.dispatch": "keyCode",
     "workbench.startupEditor": "newUntitledFile",
-    "vim.visualModeKeyBindings": [
-    
-    ], 
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false,
         "<C-v>": false,
         "<C-c>": false,
-        "<C-x>": false
-      },
+        "<C-x>": false 
+      }, 
       "files.associations": {
         "*.cshtml": "cshtml"
       },
       "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
       },
       "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp"
       },
       "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
+      },
+      "workbench.sideBar.location": "left",
+      "terminal.integrated.cursorBlinking": true,
+      "terminal.integrated.enableBell": true,
+      "terminal.integrated.fontSize": 12,
+      "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3VwcztnY3AyO25ldHdvcmtcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwMDAwMFwiLFwiRkZGRkZGXCIsXCI4Nzg3ODdcIixcIjhBOEE4QVwiLFwiOTE5MTkxXCIsXCIwMzAzMDNcIixcIjA1MDUwNVwiLFwiMDgwODA4XCIsXCIwQTBBMEFcIixcIjIxMjEyMVwiLFwiMEQwRDBEXCJdLFwiZm9ybWF0V2lkdGhcIjowLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6MjI5LFwiaGVpZ2h0XCI6NDgzfSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
+      "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      },
+      "js/ts.implicitProjectConfig.experimentalDecorators": true,
+      "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      },
+      "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+      },
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "editor.formatOnSave": true,
+      "workbench.iconTheme": "material-icon-theme",
+      "hediet.vscode-drawio.theme": "Kennedy",
 
 }
