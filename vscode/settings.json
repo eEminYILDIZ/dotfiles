@@ -1,65 +1,85 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.minimap.enabled": false,
-    "editor.fontSize": 12,
-    "vim.commandLineModeKeyBindings": [
-      {
-        "when": "editorTextFocus && vim.active && !inDebugRepl" ,
-        "command": "extension.vim_escape",
-        "key": "capslock", 
-          
-          
-        } 
-    ],
-    "keyboard.dispatch": "keyCode",
-    "workbench.startupEditor": "newUntitledFile",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false,
-        "<C-v>": false,
-        "<C-c>": false,
-        "<C-x>": false 
-      }, 
-      "files.associations": {
-        "*.cshtml": "cshtml"
-      },
-      "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-      },
-      "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
-      },
-      "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "workbench.sideBar.location": "left",
-      "terminal.integrated.cursorBlinking": true,
-      "terminal.integrated.enableBell": true,
-      "terminal.integrated.fontSize": 12,
-      "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3VwcztnY3AyO25ldHdvcmtcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwMDAwMFwiLFwiRkZGRkZGXCIsXCI4Nzg3ODdcIixcIjhBOEE4QVwiLFwiOTE5MTkxXCIsXCIwMzAzMDNcIixcIjA1MDUwNVwiLFwiMDgwODA4XCIsXCIwQTBBMEFcIixcIjIxMjEyMVwiLFwiMEQwRDBEXCJdLFwiZm9ybWF0V2lkdGhcIjowLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6MjI5LFwiaGVpZ2h0XCI6NDgzfSxcInNlYXJjaFwiOnRydWUsXCJzaG93U3RhcnRTY3JlZW5cIjp0cnVlLFwiZ3JpZENvbG9yXCI6XCIjZDBkMGQwXCIsXCJkYXJrR3JpZENvbG9yXCI6XCIjNmU2ZTZlXCIsXCJhdXRvc2F2ZVwiOnRydWUsXCJyZXNpemVJbWFnZXNcIjpudWxsLFwib3BlbkNvdW50ZXJcIjowLFwidmVyc2lvblwiOjE4LFwidW5pdFwiOjEsXCJpc1J1bGVyT25cIjpmYWxzZSxcInVpXCI6XCJcIn0ifQ==",
-      "[xml]": {
-        "editor.defaultFormatter": "redhat.vscode-xml"
-      },
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-      },
-      "js/ts.implicitProjectConfig.experimentalDecorators": true,
-      "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-      },
-      "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-      },
-      "editor.suggestSelection": "first",
-      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-      "editor.formatOnSave": true,
-      "workbench.iconTheme": "material-icon-theme",
-      "hediet.vscode-drawio.theme": "Kennedy",
-
+  "window.menuBarVisibility": "toggle",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 12,
+  "vim.commandLineModeKeyBindings": [
+    {
+      "when": "editorTextFocus && vim.active && !inDebugRepl",
+      "command": "extension.vim_escape",
+      "key": "capslock",
+    }
+  ],
+  "keyboard.dispatch": "keyCode",
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-v>": false,
+    "<C-c>": false,
+    "<C-x>": false
+  },
+  "files.associations": {
+    "*.cshtml": "cshtml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "left",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontSize": 12,
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3Vwczt1bWw7bmV0d29ya1wiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiRkZGRkZGXCIsXCIzMzk5RkZcIixcIjY2Q0MwMFwiLFwiRTZFNkU2XCIsXCI5OUZGRkZcIixcIkZGRkZDQ1wiLFwiQ0NDQ0NDXCIsXCJDQ0ZGRTZcIixcIjAwMDAwMFwiLFwiODc4Nzg3XCIsXCI4QThBOEFcIl0sXCJmb3JtYXRXaWR0aFwiOjAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjoyMjksXCJoZWlnaHRcIjo0ODN9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "redhat.telemetry.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "terminal.external.linuxExec": "konsole",
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "konsole",
+  "terminal.external.windowsExec": "konsole",
+  "terminal.integrated.allowWorkspaceConfiguration": true,
+"terminal.integrated.automationShell.linux": "console",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+"editor.detectIndentation": false,
+"workbench.tree.indent": 4,
 }

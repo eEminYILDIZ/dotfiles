@@ -211,6 +211,7 @@ for_window [class="Google-chrome"] border pixel 0
 for_window [class="qterminal"] border pixel 0
 for_window [class="vlc"] border pixel 0
 for_window [class="konsole"] border pixel 0
+for_window [class="Lens"] border pixel 0
 
 
 # reload the configuration file
