@@ -4,7 +4,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.minimap.enabled": false,
-  "editor.fontSize": 12,
+  "editor.fontSize": 11,
   "vim.commandLineModeKeyBindings": [
     {
       "when": "editorTextFocus && vim.active && !inDebugRepl",
@@ -31,13 +31,12 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.sideBar.location": "left",
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+},
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.enableBell": true,
   "terminal.integrated.fontSize": 12,
-  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3Vwczt1bWw7bmV0d29ya1wiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiRkZGRkZGXCIsXCIzMzk5RkZcIixcIjY2Q0MwMFwiLFwiRTZFNkU2XCIsXCI5OUZGRkZcIixcIkZGRkZDQ1wiLFwiQ0NDQ0NDXCIsXCJDQ0ZGRTZcIixcIjAwMDAwMFwiLFwiODc4Nzg3XCIsXCI4QThBOEFcIl0sXCJmb3JtYXRXaWR0aFwiOjAsXCJjcmVhdGVUYXJnZXRcIjpmYWxzZSxcInBhZ2VGb3JtYXRcIjp7XCJ4XCI6MCxcInlcIjowLFwid2lkdGhcIjoyMjksXCJoZWlnaHRcIjo0ODN9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3Vwczt1bWw7bmV0d29ya1wiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiMDBGRjAwXCIsXCJFQkVCRUJcIixcIkNDRTVGRlwiLFwiQ0NDQ0NDXCIsXCJGRkZGRkZcIixcIjMzOTlGRlwiLFwiNjZDQzAwXCIsXCJFNkU2RTZcIixcIjk5RkZGRlwiLFwiRkZGRkNDXCIsXCJDQ0ZGRTZcIl0sXCJmb3JtYXRXaWR0aFwiOjI0MCxcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjIyOSxcImhlaWdodFwiOjQ4M30sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
@@ -57,7 +56,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.formatOnSave": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "hediet.vscode-drawio.theme": "Kennedy",
   "redhat.telemetry.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -82,4 +81,9 @@
   "editor.wordWrap": "off",
 "editor.detectIndentation": false,
 "workbench.tree.indent": 4,
+"gitlens.codeLens.enabled": false,
+"gitlens.currentLine.enabled": false,
+"gitlens.hovers.currentLine.over": "line",
+"editor.linkedEditing": true,
+"workbench.editor.enablePreview": false,
 }
