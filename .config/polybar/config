@@ -42,7 +42,7 @@ alert = #e60053
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 25
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
@@ -51,7 +51,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 1
 line-color = #f00
 
 border-size = 1
@@ -63,12 +63,12 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
-font-3 = Font Awesome 5 Free:pixelsize=12;2
-font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
-font-5 = Font Awesome 5 Brands:pixelsize=12;2
+font-0 = fixed:pixelsize=9;1
+font-1 = unifont:fontformat=truetype:size=9:antialias=false;0
+font-2 = siji:pixelsize=9;1
+font-3 = Font Awesome 5 Free:pixelsize=9;2
+font-4 = Font Awesome 5 Free Solid:pixelsize=9;2
+font-5 = Font Awesome 5 Brands:pixelsize=9;2
 
 modules-left = i3
 modules-center = xwindow
