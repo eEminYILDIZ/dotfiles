@@ -171,10 +171,10 @@ set $ws3 "3:  Frontend"
 set $ws4 "4:  UI"
 set $ws5 "5:  Accounts"
 set $ws6 "6:  Play"
-set $ws7 "7:  Connections"
-set $ws8 "8:  VMs"
-set $ws9 "9: VPN"
-set $ws10 "10: Tools"
+set $ws7 "7:   Connections"
+set $ws8 "8:   VMs"
+set $ws9 "9:   VPN"
+set $ws10 "10:  Tools"
 
 # switch to workspace
 bindsym $mod+1 workspace  $ws1
