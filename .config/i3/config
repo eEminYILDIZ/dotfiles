@@ -173,8 +173,8 @@ set $ws5 "5:  Accounts"
 set $ws6 "6:  Play"
 set $ws7 "7:   Connections"
 set $ws8 "8:   VMs"
-set $ws9 "9:   VPN"
-set $ws10 "10:  Tools"
+set $ws9 "9:  Tools"
+set $ws10 "10:   VPN"
 
 # switch to workspace
 bindsym $mod+1 workspace  $ws1
@@ -203,9 +203,9 @@ bindsym $mod+Shift+0 move container to workspace  $ws10
 # asssign programs to workspaces
 #assign [class="Firefox"] $ws1
 assign [class="Google-chrome"] $ws4
-assign [class="FortiClient"] $ws9
-assign [class="DBeaver"] $ws10
-assign [class="io.conduktor.app.Conduktor"] $ws10
+assign [class="FortiClient"] $ws10
+assign [class="DBeaver"] $ws9
+assign [class="io.conduktor.app.Conduktor"] $ws9
 
 # remove borders for specified apps
 for_window [class="Code"] border pixel 0
