@@ -4,7 +4,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.minimap.enabled": false,
-  "editor.fontSize": 11,
+  "editor.fontSize": 12,
   "vim.commandLineModeKeyBindings": [
     {
       "when": "editorTextFocus && vim.active && !inDebugRepl",
@@ -86,4 +86,14 @@
 "gitlens.hovers.currentLine.over": "line",
 "editor.linkedEditing": true,
 "workbench.editor.enablePreview": false,
+"diffEditor.ignoreTrimWhitespace": false,
+"workbench.colorTheme": "Cobalt2",
+"powermode.backgroundMode": "image",
+"powermode.comboThreshold": 1,
+"powermode.enabled": true,
+"powermode.enableShake": false,
+"files.exclude": {
+	"**/bin": true,
+	"**/obj": true
+},
 }
