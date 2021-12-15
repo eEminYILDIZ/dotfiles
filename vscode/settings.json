@@ -96,4 +96,5 @@
 	"**/bin": true,
 	"**/obj": true
 },
+"screencastMode.verticalOffset": 10,
 }
