@@ -26,5 +26,14 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# Java
+export JAVA_HOME="/usr/lib/jvm/jdk-17/"
+export PATH=$PATH:$JAVA_HOME
+
+# Golang
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/projects
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk 
+export PATH=$PATH:$ANDROID_HOME/tools 
+export PATH=$PATH:$ANDROID_HOME/platform-tools
