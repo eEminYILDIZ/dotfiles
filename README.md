@@ -13,4 +13,4 @@ Personal dotfiles.
 | Tmux | Terminal Multiplexer |
 | NeoVim | Default Editor |
 | VSCode | IDE |
-| Dbeaver | Universal Database Manager |
+| Dbeaver | Universal Database Tool |
