@@ -218,6 +218,7 @@ for_window [class="Firefox"] border pixel 0
 for_window [class="org.remmina.Remmina"] border pixel 0
 for_window [class="VirtualBox Machine"] border pixel 0
 for_window [class="VirtualBox Manager"] border pixel 0
+for_window [class="Spotify"] border pixel 0
 
 
 # reload the configuration file
