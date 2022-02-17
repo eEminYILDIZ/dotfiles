@@ -25,7 +25,8 @@ Personal dotfiles.
 | Bash | Default Shell |
 | Tmux | Terminal Multiplexer |
 | NeoVim | Default Editor |
-| VSCode | IDE |
+| VSCode | IDE for Backend, Frontend and Mobile|
+| Android Studio | IDE for Mobile |
 | Dbeaver | Universal Database Tool |
 | Docker | Conteinarization Tool |
 | Flameshot | Screenshoot Tool |
