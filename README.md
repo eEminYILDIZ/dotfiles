@@ -30,6 +30,6 @@ Personal dotfiles.
 | Dbeaver | Universal Database Tool |
 | Docker | Conteinarization Tool |
 | Flameshot | Screenshoot Tool |
-| Conductor | Kafka GUI Tool |
+| CMAK | Kafka Management Tool |
 | Another Redis Manager | Redis GUI Tool |
 | Mongodb Compass | MongoDB GUI Tool |
