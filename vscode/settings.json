@@ -1,100 +1,100 @@
 {
-  "window.menuBarVisibility": "toggle",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.minimap.enabled": false,
-  "editor.fontSize": 12,
-  "vim.commandLineModeKeyBindings": [
-    {
-      "when": "editorTextFocus && vim.active && !inDebugRepl",
-      "command": "extension.vim_escape",
-      "key": "capslock",
-    }
-  ],
-  "keyboard.dispatch": "keyCode",
-  "workbench.startupEditor": "newUntitledFile",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false,
-    "<C-v>": false,
-    "<C-c>": false,
-    "<C-x>": false
-  },
-  "files.associations": {
-    "*.cshtml": "cshtml"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-},
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.enableBell": true,
-  "terminal.integrated.fontSize": 12,
-  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7ZXI7bW9ja3Vwczt1bWw7bmV0d29ya1wiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiMDBGRjAwXCIsXCJFQkVCRUJcIixcIkNDRTVGRlwiLFwiQ0NDQ0NDXCIsXCJGRkZGRkZcIixcIjMzOTlGRlwiLFwiNjZDQzAwXCIsXCJFNkU2RTZcIixcIjk5RkZGRlwiLFwiRkZGRkNDXCIsXCJDQ0ZGRTZcIl0sXCJmb3JtYXRXaWR0aFwiOjI0MCxcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjIyOSxcImhlaWdodFwiOjQ4M30sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "js/ts.implicitProjectConfig.experimentalDecorators": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.formatOnSave": true,
-  "workbench.iconTheme": "vscode-icons",
-  "hediet.vscode-drawio.theme": "Kennedy",
-  "redhat.telemetry.enabled": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
-    }
-  ],
-  "terminal.external.linuxExec": "konsole",
-  "terminal.explorerKind": "external",
-  "terminal.external.osxExec": "konsole",
-  "terminal.external.windowsExec": "konsole",
-  "terminal.integrated.allowWorkspaceConfiguration": true,
-"terminal.integrated.automationShell.linux": "console",
-  "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
-  "editor.lineNumbers": "on",
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off",
-"editor.detectIndentation": false,
-"workbench.tree.indent": 4,
-"gitlens.codeLens.enabled": false,
-"gitlens.currentLine.enabled": false,
-"gitlens.hovers.currentLine.over": "line",
-"editor.linkedEditing": true,
-"workbench.editor.enablePreview": false,
-"diffEditor.ignoreTrimWhitespace": false,
-"workbench.colorTheme": "Cobalt2",
-"powermode.backgroundMode": "image",
-"powermode.comboThreshold": 1,
-"powermode.enabled": true,
-"powermode.enableShake": false,
-"files.exclude": {
-	"**/bin": true,
-	"**/obj": true
-},
-"screencastMode.verticalOffset": 10,
+	"window.menuBarVisibility": "toggle",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.minimap.enabled": false,
+	"editor.fontSize": 12,
+	"vim.commandLineModeKeyBindings": [
+		{
+			"when": "editorTextFocus && vim.active && !inDebugRepl",
+			"command": "extension.vim_escape",
+			"key": "capslock",
+		}
+	],
+	"keyboard.dispatch": "keyCode",
+	"workbench.startupEditor": "newUntitledFile",
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-f>": false,
+		"<C-v>": false,
+		"<C-c>": false,
+		"<C-x>": false
+	},
+	"files.associations": {
+		"*.cshtml": "cshtml"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[csharp]": {
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.fontSize": 12,
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.formatOnSave": true,
+	"workbench.iconTheme": "vscode-icons",
+	"hediet.vscode-drawio.theme": "Kennedy",
+	"redhat.telemetry.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"mssql.connections": [
+		{
+			"server": "{{put-server-name-here}}",
+			"database": "{{put-database-name-here}}",
+			"user": "{{put-username-here}}",
+			"password": "{{put-password-here}}"
+		}
+	],
+	"terminal.external.linuxExec": "konsole",
+	"terminal.explorerKind": "external",
+	"terminal.external.osxExec": "konsole",
+	"terminal.external.windowsExec": "konsole",
+	"terminal.integrated.allowWorkspaceConfiguration": true,
+	"terminal.integrated.automationShell.linux": "console",
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "on",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"editor.detectIndentation": false,
+	"workbench.tree.indent": 4,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"editor.linkedEditing": true,
+	"workbench.editor.enablePreview": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.colorTheme": "Cobalt2",
+	"powermode.enabled": true,
+	"files.exclude": {
+		"**/bin": true,
+		"**/obj": true
+	},
+	"screencastMode.verticalOffset": 10,
+	"powermode.combo.threshold": 1,
+	"powermode.shake.enabled": false,
+	"powermode.explosions.backgroundMode": "image",
+	"audioCues.lineHasWarning": "on",
 }
