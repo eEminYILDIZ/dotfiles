@@ -22,6 +22,7 @@ Personal dotfiles.
 | i3 | Tiling Windows Manager |
 | Polybar |Status Bar |
 | Feh |Background Image |
+| Remmina | RDP Client |
 | Bash | Default Shell |
 | Tmux | Terminal Multiplexer |
 | NeoVim | Default Editor |
