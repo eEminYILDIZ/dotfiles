@@ -21,7 +21,8 @@ Personal dotfiles.
 |---|---|
 | i3 | Tiling Windows Manager |
 | Polybar |Status Bar |
-| Feh |Background Image |
+| Feh | Background Image |
+| VLC | Media Player |
 | Remmina | RDP Client |
 | Bash | Default Shell |
 | Tmux | Terminal Multiplexer |
