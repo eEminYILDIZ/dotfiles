@@ -112,8 +112,21 @@ fi
 # Remap Capslock as ESC
 setxkbmap -option caps:escape
 
+# JAVA
+# export PATH=$PATH:/opt/android-studio/jre/bin
+
 # Add Golang to Path
 export PATH=$PATH:/usr/local/go/bin
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk 
+export PATH=$PATH:$ANDROID_HOME/tools 
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Deno
+
+export DENO_INSTALL="/home/radmin/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 #########################################
 ##Change Bash Display Command for Git####
@@ -139,3 +152,5 @@ if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then . '/opt/google-cloud-sdk/p
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/opt/google-cloud-sdk/completion.bash.inc'; fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
