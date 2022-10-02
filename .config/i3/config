@@ -221,6 +221,7 @@ for_window [class="VirtualBox Machine"] border pixel 0
 for_window [class="VirtualBox Manager"] border pixel 0
 for_window [class="Spotify"] border pixel 0
 for_window [class="Postman"] border pixel 0
+for_window [class="Brave-browser"] border pixel 0
 
 
 # reload the configuration file
