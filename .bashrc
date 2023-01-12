@@ -112,21 +112,20 @@ fi
 # Remap Capslock as ESC
 setxkbmap -option caps:escape
 
-# JAVA
-# export PATH=$PATH:/opt/android-studio/jre/bin
-
 # Add Golang to Path
 export PATH=$PATH:/usr/local/go/bin
 
 # Android
-export ANDROID_HOME=$HOME/Android/Sdk 
-export PATH=$PATH:$ANDROID_HOME/tools 
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
-# Deno
-
+# Deno Setup
 export DENO_INSTALL="/home/radmin/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+# Kubernetes
+export PATH="${PATH}:${HOME}/.krew/bin"
 
 #########################################
 ##Change Bash Display Command for Git####
@@ -142,15 +141,12 @@ PROMPT_COMMAND='echo -ne "\033]0;${PWD}\007"'
 
 
 ##############################################
-# Development Workspace
-alias dev='cd /srv/Devspace/'
-alias cdev='cd /srv/Devspace/Crosstech/'
-
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then . '/opt/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then . '/opt/google-cloud-sdk/completion.bash.inc'; fi
+
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
