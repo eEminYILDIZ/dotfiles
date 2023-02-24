@@ -15,7 +15,7 @@ Personal dotfiles.
 | VSCode | IDE |
 | Dbeaver | Universal Database Tool |
 
-## Daily Use Tool
+## Daily Use Tools
 
 |Tool|Description|
 |---|---|
@@ -35,3 +35,5 @@ Personal dotfiles.
 | CMAK | Kafka Management Tool |
 | Another Redis Manager | Redis GUI Tool |
 | Mongodb Compass | MongoDB GUI Tool |
+| Google Chrome | Development Browser |
+| Brave | Daily Browser |
