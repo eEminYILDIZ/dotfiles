@@ -42,7 +42,7 @@ alert = #e60053
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 25
+height = 27
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
@@ -51,7 +51,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 1
+line-size = 3
 line-color = #f00
 
 border-size = 1
@@ -63,16 +63,16 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=9;1
-font-1 = unifont:fontformat=truetype:size=9:antialias=false;0
-font-2 = siji:pixelsize=9;1
-font-3 = Font Awesome 5 Free:pixelsize=9;2
-font-4 = Font Awesome 5 Free Solid:pixelsize=9;2
-font-5 = Font Awesome 5 Brands:pixelsize=9;2
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+font-3 = Font Awesome 5 Free:pixelsize=12;2
+font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
+font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = pulseaudio wlan cpu memory filesystem xkeyboard temperature battery date powermenu
+modules-right = pulseaudio wlan cpu memory filesystem xkeyboard temperature battery custom-battery date powermenu
 
 ; separator = |
 
@@ -239,8 +239,8 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlo1
-interval = 2.0
+interface = wlp7s0
+interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = ${colors.primary}
@@ -251,11 +251,11 @@ format-disconnected-underline = ${colors.secondary}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.secondary}
 
-ramp-signal-0 =
-ramp-signal-1 =
-ramp-signal-2 =
-ramp-signal-3 =
-ramp-signal-4 =
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.secondary}
 
 [module/eth]
@@ -347,8 +347,8 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ADP1
+battery = BAT0
+adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
@@ -397,34 +397,10 @@ ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.secondary}
 
-[module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = 
-label-open-foreground = ${colors.secondary}
-label-close =  cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
+[module/custom-battery]
+type = custom/script
+interval = 30
+exec = if [ $(cat /sys/class/power_supply/BAT0/capacity) -lt 15 ]; then notify-send -u critical "Low Battery !"; fi;
 
 [settings]
 screenchange-reload = true
@@ -437,5 +413,7 @@ screenchange-reload = true
 [global/wm]
 margin-top = 0
 margin-bottom = 0
+
+
 
 ; vim:ft=dosini
