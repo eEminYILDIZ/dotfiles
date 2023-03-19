@@ -38,3 +38,13 @@ Personal dotfiles.
 | Mongodb Compass | MongoDB GUI Tool |
 | Google Chrome | Development Browser |
 | Brave | Daily Browser |
+
+## Terminal Tools
+
+|Tool|Description|
+|---|---|
+| bat | Syntax higlighted version of 'cat' |
+| gdu | Disk analyzer tool |
+| trash-cli | Trash control tool |
+| speedtest-cli | Network speed test tool |
+
