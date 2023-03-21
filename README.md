@@ -2,6 +2,12 @@
 
 Personal dotfiles.
 
+## OS 
+Dual-Bot System
+
+- Primary: Ubuntu 22.10
+- Secondary: Windows 11 Pro
+
 ## Configuration Files
 
 |Tool|Description|
