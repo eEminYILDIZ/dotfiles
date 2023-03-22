@@ -44,6 +44,7 @@ Dual-Bot System
 | Mongodb Compass | MongoDB GUI Tool |
 | Google Chrome | Development Browser |
 | Brave | Daily Browser |
+| scrcpy | Android Screen Casting Tool |
 
 ## Terminal Tools
 
