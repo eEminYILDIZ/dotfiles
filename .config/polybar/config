@@ -63,7 +63,7 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = fixed:pixelsize=10;1
+font-0 = fixed:pixelsize=12;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = Font Awesome 5 Free:pixelsize=12;2
@@ -93,10 +93,6 @@ tray-padding = 2
 
 cursor-click = pointer
 cursor-scroll = ns-resize
-
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -400,7 +396,7 @@ ramp-foreground = ${colors.secondary}
 [module/custom-battery]
 type = custom/script
 interval = 30
-exec = if [ $(cat /sys/class/power_supply/BAT0/capacity) -lt 15 ]; then notify-send -u critical "Low Battery !"; fi;
+exec = if [ $(cat /sys/class/power_supply/BAT0/capacity) -lt 10 ] && [ $(acpi | grep Charging | wc -l) -ne 1 ]; then notify-send -u critical "Low Battery !"; fi;
 
 [settings]
 screenchange-reload = true
