@@ -2,6 +2,12 @@
 
 Personal dotfiles.
 
+## OS 
+Dual-Bot System
+
+- Primary: Ubuntu 22.10
+- Secondary: Windows 11 Pro
+
 ## Configuration Files
 
 |Tool|Description|
@@ -38,6 +44,7 @@ Personal dotfiles.
 | Mongodb Compass | MongoDB GUI Tool |
 | Google Chrome | Development Browser |
 | Brave | Daily Browser |
+| scrcpy | Android Screen Casting Tool |
 
 ## Terminal Tools
 

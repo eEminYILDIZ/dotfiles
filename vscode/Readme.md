@@ -50,10 +50,10 @@ Frontend:
 Mobile
 - React Native Tools
 
-
 Utilities:
 - Git Blame
 - Insert Guid
 - File Utils
 - YAML
 - XML Tools
+- vscode-proto3
