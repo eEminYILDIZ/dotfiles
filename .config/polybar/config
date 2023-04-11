@@ -396,7 +396,7 @@ ramp-foreground = ${colors.secondary}
 [module/custom-battery]
 type = custom/script
 interval = 30
-exec = if [ $(cat /sys/class/power_supply/BAT0/capacity) -lt 10 ] && [ $(acpi | grep Charging | wc -l) -ne 1 ]; then notify-send -u critical "Low Battery !"; fi;
+exec = if [ $(cat /sys/class/power_supply/BAT0/capacity) -lt 7 ] && [ $(acpi | grep Charging | wc -l) -ne 1 ]; then notify-send -u critical "Low Battery !"; fi;
 
 [settings]
 screenchange-reload = true
