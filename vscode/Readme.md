@@ -5,7 +5,7 @@ Theme, extentions etc.
 ## Theme
 
 Working:
-- Cobalt2
+- Dark+ V2
 
 Project Splitter:
 - Peacock
