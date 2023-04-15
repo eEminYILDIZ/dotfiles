@@ -35,6 +35,7 @@ Backend:
 - C#
 - Go
 - C# to Typescript
+- Python
 
 Frontend:
 - Live Server
