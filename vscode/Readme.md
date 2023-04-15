@@ -52,6 +52,8 @@ Mobile
 - React Native Tools
 
 Utilities:
+- Git History
+- Git Graph
 - Git Blame
 - Insert Guid
 - File Utils
