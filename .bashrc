@@ -116,9 +116,15 @@ setxkbmap -option caps:escape
 export PATH=$PATH:/usr/local/go/bin
 
 # Android
-export ANDROID_SDK_ROOT=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
-export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+# export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+# export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+# export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# JAVA
+export JAVA_HOME=/usr/lib/jvm/default-java
 
 # Deno Setup
 export DENO_INSTALL="/home/radmin/.deno"
