@@ -1,8 +1,9 @@
 # Dotfiles
 
-Personal dotfiles.
+My dotfiles.
 
 ## OS 
+
 Dual-Bot System
 
 - Primary: Ubuntu 22.10
