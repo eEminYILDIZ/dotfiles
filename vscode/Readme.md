@@ -36,6 +36,7 @@ Backend:
 - Go
 - C# to Typescript
 - Python
+- Extension Pack for Java
 
 Frontend:
 - Live Server
