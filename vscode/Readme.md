@@ -61,3 +61,4 @@ Utilities:
 - YAML
 - XML Tools
 - vscode-proto3
+- ANTLR4 grammar syntax support
