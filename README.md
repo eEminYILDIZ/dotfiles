@@ -41,7 +41,7 @@ Dual-Bot System
 | Docker                | Conteinarization Tool                |
 | Flameshot             | Screenshoot Tool                     |
 | Gromit-Mpx            | Screen Annotation Tool               |
-| CMAK                  | Kafka Management Tool                |
+| Kafka-UI              | Kafka Management Tool                |
 | Another Redis Manager | Redis GUI Tool                       |
 | Mongodb Compass       | MongoDB GUI Tool                     |
 | Google Chrome         | Development Browser                  |
